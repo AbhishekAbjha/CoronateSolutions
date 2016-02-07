@@ -1,0 +1,31 @@
+.img-short-logo{
+    margin-top: 6px;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li {
+        font-size:1.2em;
+        width:100px;
+        text-align:center;
+    }
+}
+
+.header-component{
+    margin-top:75px;
+    border-bottom:2px solid #c8c8c8;
+    height:175px;
+}
+
+.logo{
+    margin-left:5px;
+    float:left;
+}
+
+.bouncing-logo{
+    float:right;
+    margin-right:5px;
+    width:500px;
+    height:160px;
+    border:2px solid #0C98D9;
+}
+
