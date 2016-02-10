@@ -13,9 +13,12 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" />
     <link rel="stylesheet" type="text/css" href="css/home.css" />
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/lib/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="js/lib/angular.min.js"></script>
+    <script type="text/javascript" src="js/lib/underscore-min.js"></script>
+    <script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/coronatesolutions.js"></script>
+    <script type="text/javascript" src="js/bouncingalphabet.js"></script>
 </head>
 <body>
     <div class="container-fluid">
@@ -34,13 +37,13 @@
                 </nav>
             </div>
         </header>
-        <div class="header-component">
+        <div class="header-component ">
             <div class="container">
                 <div class="logo">
                     <img alt="Logo" src="img/coronate-solutions.png"/>
                 </div>
                 <div class="bouncing-logo">
-                    <canvas></canvas>
+                    <canvas id="bouncingcanvas" width="496" height="156"></canvas>
                 </div>
             </div>
         </div>
